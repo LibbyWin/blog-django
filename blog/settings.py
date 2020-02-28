@@ -25,7 +25,8 @@ SECRET_KEY = 'w=kak*8#ib+0v)^_!&&mv!8e(ip*asdkd1z6a19((7!3ket67v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-df7bcb7b-88ad-465f-8771-4d2770d11438.ws-eu01.gitpod.io']
+ALLOWED_HOSTS = ['8000-df7bcb7b-88ad-465f-8771-4d2770d11438.ws-eu01.gitpod.io',
+                 'localhost']
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_forms_bootstrap',
     'posts',
 ]
 
