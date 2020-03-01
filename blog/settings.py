@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-df7bcb7b-88ad-465f-8771-4d2770d11438.ws-eu01.gitpod.io',
                  'localhost',
-                 'blogtestapp-01.herokuapp']
+                 'blogtestapp-01.herokuapp.com']
 
 
 # Application definition
